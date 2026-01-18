@@ -1,7 +1,9 @@
 "use client";
+import react from "react";
 import SearchForm from "@/components/common/SearchForm";
+import Image from "next/image";
 import React, { useState } from "react";
-
+import "./hero.css";
 export default function Hero() {
   // State to track the active item
   const [activeItem, setActiveItem] = useState("For sale");
@@ -10,18 +12,33 @@ export default function Hero() {
   const items = ["For sale", "For rent"];
 
   return (
-    <div className="page-title home01">
-      <div className="tf-container ">
+    <div className="page-title home01" >
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/images/section/hero.mp4" type="video/mp4" />
+      </video>
+
+      <div className="tf-container">
+        {/* your existing hero content goes here */}
+      </div>
+
+      <div className="tf-container " >
         <div className="row justify-center relative">
           <div className="col-lg-8 ">
             <div className="content-inner">
               <div className="heading-title">
-                <h1 className="title">Search Luxury Homes</h1>
+                <span className="welcome" style={{ fontSize: "1.5em", color: "white" }}>Welcome to</span>
+                <h1 className="title">Bindals Property Hub</h1>
                 <p className="h6 fw-4">
-                  Thousands of luxury property enthusiasts just like you visit our website.
+                  Bringing you premium properties from trusted vendors and agents in Delhi, Dubai, and beyond, with clarity and confidence at every step
                 </p>
               </div>
-              <div className="wg-filter">
+              {/* <div className="wg-filter">
                 <div className="form-title">
                   <div className="tf-dropdown-sort " data-bs-toggle="dropdown">
                     <div className="btn-select">
@@ -130,9 +147,9 @@ export default function Hero() {
                       Search <i className="icon-MagnifyingGlass fw-6" />
                     </a>
                   </div>
-                </div>
-                <SearchForm />
-              </div>
+                </div> */}
+              {/* <SearchForm /> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
