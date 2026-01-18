@@ -9,11 +9,10 @@ export default function About() {
             <div className="box-contact">
               <div className="heading-section mb-48">
                 <h2 className="title split-text split-lines-transform">
-                  We provide the most suitable and quality real estate.
+                  Quality real estate solutions you can trust.
                 </h2>
                 <p className="text-1">
-                  Estimate your payment with our easy-to-use loan calculator.
-                  Then get pre-qualified to buy by a local lender.
+                  Connect with us to explore the right property and get expert guidance at every step.
                 </p>
               </div>
               <ul className="list-info">
@@ -48,7 +47,7 @@ export default function About() {
                   </div>
                   <div className="content">
                     <div className="sub">Office address</div>
-                    <p>102 Ingraham St, Brooklyn, NY 11237</p>
+                    <p>RZD-3 193/193A Basement street no 9. Mahavir Encalve Part-1, Delhi, India, Delhi</p>
                   </div>
                 </li>
                 <li>
@@ -91,8 +90,8 @@ export default function About() {
                     </svg>
                   </div>
                   <div className="content">
-                    <div className="sub">Office address</div>
-                    <div className="phone">+91 9873940835</div>
+                    <div className="sub">Contact No.</div>
+                    <div style={{color:"black", fontSize: "16px"}}>+91 9873940835</div>
                   </div>
                 </li>
                 <li>
@@ -167,8 +166,8 @@ export default function About() {
                     </svg>
                   </div>
                   <div className="content">
-                    <div className="sub">Office address</div>
-                    <a href="#">bindalspropertyhub@gmail.com</a>
+                    <div className="sub">Email</div>
+                   <a href="#" style={{color:"black"}}>bindalspropertyhub@gmail.com</a>
                   </div>
                 </li>
               </ul>

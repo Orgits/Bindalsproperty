@@ -176,21 +176,21 @@ export default function Blogs1() {
                           <g clipPath="url(#clip0_2450_13860)">
                             <path
                               d="M10.0013 18.3334C14.6037 18.3334 18.3346 14.6024 18.3346 10C18.3346 5.39765 14.6037 1.66669 10.0013 1.66669C5.39893 1.66669 1.66797 5.39765 1.66797 10C1.66797 14.6024 5.39893 18.3334 10.0013 18.3334Z"
-                              stroke="#F1913D"
+                              stroke="#C5A34F"
                               strokeWidth="1.5"
                               strokeLinecap="round"
                               strokeLinejoin="round"
                             />
                             <path
                               d="M6.66797 10H13.3346"
-                              stroke="#F1913D"
+                              stroke="#C5A34F"
                               strokeWidth="1.5"
                               strokeLinecap="round"
                               strokeLinejoin="round"
                             />
                             <path
                               d="M10 13.3334L13.3333 10L10 6.66669"
-                              stroke="#F1913D"
+                              stroke="#C5A34F"
                               strokeWidth="1.5"
                               strokeLinecap="round"
                               strokeLinejoin="round"

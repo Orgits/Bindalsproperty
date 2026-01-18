@@ -9,8 +9,8 @@ export default function Blogs2() {
         <div className="row">
           <div className="col-12">
             <div className="box-title">
-              <h2>Blog grid</h2>
-              <div className="group-layout">
+              <h2>Blogs</h2>
+              {/* <div className="group-layout">
                 <a href="#" className="btn-layout grid active">
                   <svg
                     width={25}
@@ -56,6 +56,7 @@ export default function Blogs2() {
                       stroke="#8E8E93"
                     />
                   </svg>
+
                 </a>
                 <a href="#" className="btn-layout list">
                   <svg
@@ -91,10 +92,10 @@ export default function Blogs2() {
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="grid-layout-3">
-              {blogArticles4.map((post, i) => (
+              {blogArticles4.slice(0, 3).map((post, i) => (
                 <div key={i} className="blog-article-item style-2">
                   <div className="image-wrap">
                     <Image
@@ -175,21 +176,21 @@ export default function Blogs2() {
                         <g clipPath="url(#clip0_2450_13860)">
                           <path
                             d="M10.0013 18.3334C14.6037 18.3334 18.3346 14.6024 18.3346 10C18.3346 5.39765 14.6037 1.66669 10.0013 1.66669C5.39893 1.66669 1.66797 5.39765 1.66797 10C1.66797 14.6024 5.39893 18.3334 10.0013 18.3334Z"
-                            stroke="#F1913D"
+                            stroke="#C5A34F"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                           />
                           <path
                             d="M6.66797 10H13.3346"
-                            stroke="#F1913D"
+                            stroke="#C5A34F"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                           />
                           <path
                             d="M10 13.3334L13.3333 10L10 6.66669"
-                            stroke="#F1913D"
+                            stroke="#C5A34F"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -218,12 +219,7 @@ export default function Blogs2() {
               <li className="active">
                 <a href="#">2</a>
               </li>
-              <li>
-                <a href="#">...</a>
-              </li>
-              <li>
-                <a href="#">20</a>
-              </li>
+            
               <li className="arrow">
                 <a href="#">
                   <i className="icon-arrow-right" />

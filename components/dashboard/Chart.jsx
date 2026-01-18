@@ -60,7 +60,7 @@ const LineChart = () => {
               250,
             ],
             backgroundColor: gradient,
-            borderColor: "#f1913d",
+            borderColor: "#C5A34F",
             borderWidth: 2,
             fill: true,
             tension: 0.4,

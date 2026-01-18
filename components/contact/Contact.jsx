@@ -6,16 +6,18 @@ import MapComponent from "../common/MapComponent";
 export default function Contact() {
   return (
     <section className="section-top-map style-2">
-      <div className="wrap-map">
-        <div
-          id="map"
-          className="row-height"
-          data-map-zoom={16}
-          data-map-scroll="true"
-        >
-          <MapComponent />
-        </div>
-      </div>
+
+     <div className="wrap-map">
+  <div
+    id="map"
+    className="row-height"
+    data-map-zoom={16}
+    data-map-scroll="false"
+  >
+    <MapComponent />
+  </div>
+ 
+</div>
       <div className="box">
         <div className="tf-container">
           <div className="row">
@@ -26,10 +28,9 @@ export default function Contact() {
                 className="form-contact"
               >
                 <div className="heading-section">
-                  <h2 className="title">We Would Love to Hear From You</h2>
+                  <h2 className="title">Get in touch with our real estate experts.</h2>
                   <p className="text-1">
-                    We'll get to know you to understand your selling goals,
-                    explain the selling process so you know what to expect.
+                    We listen to your requirements and make the property-buying process simple and transparent.
                   </p>
                 </div>
                 <div className="cols">

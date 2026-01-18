@@ -18,13 +18,11 @@ export default function Cta() {
                   Find a Local Real Estate Agent Today
                 </h4>
                 <p className="text_white text-1">
-                  If you’re looking to buy or sell a home. We’ll help you make
-                  the most money possible.
+                  Looking to buy or sell a home? We’re here to guide you toward the best possible outcome.
                 </p>
               </div>
-              <a href="#" className="tf-btn style-2 fw-6">
-                Find your location agent
-                <i className="icon-MagnifyingGlass fw-6" />
+              <a href="tel:+919873940835" className="tf-btn style-2 fw-6">
+                Call your location agent
               </a>
             </div>
           </div>

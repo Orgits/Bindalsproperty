@@ -467,15 +467,15 @@ export default function Faqs() {
                     />
                   </div>
                   <div className="content">
-                    <h6 className="name">Shara Conner</h6>
+                    <h6 className="name">Jeetender Bindal</h6>
                     <ul className="contact">
                       <li>
                         <i className="icon-phone-1" />
-                        <span>1-333-345-6868</span>
+                        <span><a href="tel:09873940835">098739 40835</a></span>
                       </li>
                       <li>
                         <i className="icon-mail" />
-                        <a href="#">bindalspropertyhub@gmail.com</a>
+                        <a href="Mailto:bindalspropertyhub@gmail.com">bindalspropertyhub@gmail.com</a>
                       </li>
                     </ul>
                   </div>

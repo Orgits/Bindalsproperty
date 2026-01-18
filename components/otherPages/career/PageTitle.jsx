@@ -19,8 +19,7 @@ export default function PageTitle() {
                   A Culture of Inclusivity and Belonging
                 </h1>
                 <p className="h6 fw-4">
-                  Thousands of luxury home enthusiasts just like you visit our
-                  website.
+                  Thousands of luxury property enthusiasts just like you visit our website.
                 </p>
               </div>
               <div className="wg-filter">

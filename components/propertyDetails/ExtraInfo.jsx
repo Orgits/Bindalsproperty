@@ -26,21 +26,21 @@ export default function ExtraInfo() {
             <g clipPath="url(#clip0_2348_5612)">
               <path
                 d="M1.66732 9.99999C1.66732 14.6024 5.39828 18.3333 10.0007 18.3333C14.603 18.3333 18.334 14.6024 18.334 9.99999C18.334 5.39762 14.603 1.66666 10.0007 1.66666C5.39828 1.66666 1.66732 5.39762 1.66732 9.99999Z"
-                stroke="#F1913D"
+                stroke="#C5A34F"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M10 6.66666L10 13.3333"
-                stroke="#F1913D"
+                stroke="#C5A34F"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M6.66732 10L10.0007 13.3333L13.334 10"
-                stroke="#F1913D"
+                stroke="#C5A34F"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"

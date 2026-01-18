@@ -10,10 +10,10 @@ export default function Brands() {
             <div className="col-12">
               <div className="heading-section text-center mb-48">
                 <h2 className="title split-text effect-right">
-                  <SplitTextAnimation text="Let’s Work Together" />
+                  <SplitTextAnimation text="Let’s Find the Right Property for You" />
                 </h2>
                 <p className="text-1">
-                  Thousands of luxury home enthusiasts just like you visit our
+                  Thousands of luxury Property enthusiasts just like you visit our
                   website.
                 </p>
               </div>

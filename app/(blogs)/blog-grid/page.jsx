@@ -16,7 +16,7 @@ export default function page() {
       <div id="wrapper">
         <Header1 />
         <div className="main-content">
-          <Breadcumb pageName="Blog Grid" />
+          <Breadcumb pageName="Blogs" />
           <Blogs2 />
           <Cta />
         </div>

@@ -66,69 +66,11 @@ export default function Nav() {
           ))}
         </ul> */}
       </li>
-      <li
-        className={`has-child  ${
-          isParentActive(otherPages) ? "current-menu" : ""
-        } `}
-      >
-        <a href="#">Pages</a>
-        <ul className="submenu">
-          {otherPages.map((menu, index) => (
-            <li
-              key={index}
-              className={`${menu.className || ""}  ${
-                isParentActive(menu.submenu || []) ? "current-item" : ""
-              }   ${
-                menu.href?.split("/")[1] == pathname.split("/")[1]
-                  ? "current-item"
-                  : ""
-              } `}
-            >
-              {menu.submenu ? (
-                <>
-                  <a href="#">{menu.title}</a>
-                  <ul className="submenu">
-                    {menu.submenu.map((item, subIndex) => (
-                      <li
-                        key={subIndex}
-                        className={
-                          item.href?.split("/")[1] == pathname.split("/")[1]
-                            ? "current-item"
-                            : ""
-                        }
-                      >
-                        <Link href={item.href}>{item.label}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              ) : (
-                <Link href={menu.href}>{menu.label}</Link>
-              )}
-            </li>
-          ))}
-        </ul>
+        <li className={"/faq" == pathname ? "current-menu" : ""}>
+        <Link href={`/faq`}>FAQs</Link>
       </li>
-      <li
-        className={`has-child ${
-          isParentActive(blogMenu) ? "current-menu" : ""
-        } `}
-      >
-        <a href="#">Blog</a>
-        <ul className="submenu">
-          {blogMenu.map((item, index) => (
-            <li
-              key={index}
-              className={
-                item.href.split("/")[1] == pathname.split("/")[1]
-                  ? "current-item"
-                  : ""
-              }
-            >
-              <Link href={item.href}>{item.label}</Link>
-            </li>
-          ))}
-        </ul>
+      <li className={"/blog" == pathname ? "current-menu" : ""}>
+        <Link href={`/blog-grid`}>Blogs</Link>
       </li>
       <li className={"/contact" == pathname ? "current-menu" : ""}>
         <Link href={`/contact`}>Contact</Link>

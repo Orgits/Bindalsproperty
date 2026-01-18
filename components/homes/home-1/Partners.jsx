@@ -11,14 +11,13 @@ export default function Partners() {
             <div className="col-12">
               <div className="heading-section  text-center mb-48">
                 <h2 className="title text_white split-text effect-right">
-                  <SplitTextAnimation text="Let’s Work Together" />
+                  <SplitTextAnimation text="Let’s Find the Right Property for You" />
                 </h2>
                 <p
                   className="text-1 text_white wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                 >
-                  Thousands of luxury home enthusiasts just like you visit our
-                  website.
+                  Thousands of luxury property enthusiasts just like you visit our website.
                 </p>
               </div>
               <BrandSlider />

@@ -42,14 +42,14 @@ export default function Header9() {
                       >
                         <path
                           d="M7 7H17V17"
-                          stroke="#F1913D"
+                          stroke="#C5A34F"
                           strokeWidth="1.5"
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         />
                         <path
                           d="M7 17L17 7"
-                          stroke="#F1913D"
+                          stroke="#C5A34F"
                           strokeWidth="1.5"
                           strokeLinecap="round"
                           strokeLinejoin="round"
