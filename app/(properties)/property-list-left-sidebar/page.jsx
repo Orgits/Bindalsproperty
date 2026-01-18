@@ -9,8 +9,8 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Property List Right Sidebar || Proty - Real Estate React Nextjs Template",
-  description: "Proty - Real Estate React Nextjs Template",
+    "Property List Right Sidebar || Bindals Property Hub - Real Estate React Nextjs Template",
+  description: "Bindals Property Hub - Real Estate React Nextjs Template",
 };
 export default function page() {
   return (

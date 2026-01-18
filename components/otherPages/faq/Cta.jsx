@@ -58,7 +58,7 @@ export default function Cta() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    (603) 555-0123
+                    +91 9873940835
                   </a>
                 </div>
               </div>

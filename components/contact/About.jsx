@@ -92,7 +92,7 @@ export default function About() {
                   </div>
                   <div className="content">
                     <div className="sub">Office address</div>
-                    <div className="phone">(603) 555-0123</div>
+                    <div className="phone">+91 9873940835</div>
                   </div>
                 </li>
                 <li>

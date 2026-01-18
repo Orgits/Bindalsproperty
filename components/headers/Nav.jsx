@@ -20,13 +20,14 @@ export default function Nav() {
     );
   return (
     <>
+   
       <li
-        className={`has-child ${
-          homes.some((elm) => elm.href == pathname) ? "current-menu" : ""
-        }`}
+        // className={`has-child ${
+        //   homes.some((elm) => elm.href == pathname) ? "current-menu" : ""
+        // }`}
       >
-        <a href="#">Home</a>
-        <ul className="submenu">
+        <a href="/.">Home</a>
+        {/* <ul className="submenu">
           {homes.map((item, index) => (
             <li
               key={index}
@@ -35,15 +36,15 @@ export default function Nav() {
               <Link href={item.href}>{item.label}</Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </li>
       <li
-        className={`has-child style-2 ${
-          isParentActive(propertyLinks) ? "current-menu" : ""
-        } `}
+        // className={`has-child style-2 ${
+        //   isParentActive(propertyLinks) ? "current-menu" : ""
+        // } `}
       >
         <a href="#">Listing</a>
-        <ul className="submenu">
+        {/* <ul className="submenu">
           {propertyLinks.map((menu, index) => (
             <li key={index}>
               <a href="#">{menu.title}</a>
@@ -63,7 +64,7 @@ export default function Nav() {
               </ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </li>
       <li
         className={`has-child  ${

@@ -46,7 +46,7 @@ export default function Header2() {
                         />
                       </svg>
                     </div>
-                    <p>(603) 555-0123</p>
+                    <p>+91 9873940835</p>
                   </div>
                   <DashboardNav color="text_white" />
                   <div className="btn-add">

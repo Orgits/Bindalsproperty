@@ -2,8 +2,8 @@ import AddProperty from "@/components/dashboard/AddProperty";
 import React from "react";
 
 export const metadata = {
-  title: "Add Property || Proty - Real Estate React Nextjs Template",
-  description: "Proty - Real Estate React Nextjs Template",
+  title: "Add Property || Bindals Property Hub - Real Estate React Nextjs Template",
+  description: "Bindals Property Hub - Real Estate React Nextjs Template",
 };
 export default function page() {
   return (

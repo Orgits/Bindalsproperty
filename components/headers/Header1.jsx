@@ -46,15 +46,15 @@ export default function Header1({ parentClass = "header" }) {
                         />
                       </svg>
                     </div>
-                    <p>(603) 555-0123</p>
+                    <p>+91 9873940835</p>
                   </div>
-                  <DashboardNav />
+                  {/* <DashboardNav /> */}
                   <div className="btn-add">
                     <Link
                       className="tf-btn style-border pd-23"
                       href={`/add-property`}
                     >
-                      Add property
+                     Get In Touch
                     </Link>
                   </div>
                   <div

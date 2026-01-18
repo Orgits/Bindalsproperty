@@ -46,7 +46,7 @@ export default function Header3() {
                         />
                       </svg>
                     </div>
-                    <p>(603) 555-0123</p>
+                    <p>+91 9873940835</p>
                   </div>
                   <DashboardNav />
                   <div className="btn-add">
