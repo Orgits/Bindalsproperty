@@ -177,11 +177,11 @@ export default function About() {
             <div className="image-wrap">
               <Image
                 className="lazyload"
-                data-src="/images/section/section-contact-2.jpg"
+                data-src="/images/section/contact-2.jpeg"
                 alt=""
                 width={550}
                 height={560}
-                src="/images/section/section-contact-2.jpg"
+                src="/images/section/contact-2.jpeg"
               />
             </div>
           </div>

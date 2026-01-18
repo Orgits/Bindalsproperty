@@ -11,7 +11,7 @@ export default function Partners() {
             <div className="col-12">
               <div className="heading-section  text-center mb-48">
                 <h2 className="title text_white split-text effect-right">
-                  <SplitTextAnimation text="Let’s Find the Right Property for You" />
+                  <SplitTextAnimation text="Properties from trusted vendors & agents." />
                 </h2>
                 <p
                   className="text-1 text_white wow animate__fadeInUp animate__animated"

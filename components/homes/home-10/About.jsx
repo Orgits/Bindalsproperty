@@ -78,7 +78,7 @@ export default function About() {
                       </div>
                       <div className="content">
                         <div className="sub">Need help</div>
-                        <p>info@bindalsproperty.com</p>
+                        <p>bindalspropertyhub@gmail.com</p>
                       </div>
                     </li>
                   </ul>

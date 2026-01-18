@@ -106,7 +106,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                   <div className="content">
                     <div className="title text-1">Need help</div>
                     <h6 className="fw-4">
-                      <a href="#">info@bindalsproperty.com</a>
+                      <a href="#">bindalspropertyhub@gmail.com</a>
                     </h6>
                   </div>
                 </div>

@@ -22,7 +22,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion-faq-one"
                   >
-                    Why Should I Use Your Services?
+                    How do you help clients find the right property?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -31,11 +31,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -47,7 +43,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion-faq-two"
                   >
-                    Why Should I Use Your Services?
+                   Do you represent buyers, sellers, or both?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -56,11 +52,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We assist both buyers and sellers by connecting them with experienced agents and quality listings, ensuring a smooth and transparent transaction process.
                     </p>
                   </div>
                 </li>
@@ -72,7 +64,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion-faq-three"
                   >
-                    How Secure Are Your Services?
+                    How do real estate agents benefit from working with you?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -81,68 +73,16 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      Agents gain increased visibility, qualified leads, and access to a wider audience actively searching for properties, helping them close deals more efficiently.
                     </p>
                   </div>
                 </li>
-                <li className="faq-item">
-                  <a
-                    href="#accordion-faq-four"
-                    className="faq-header h6 collapsed"
-                    data-bs-toggle="collapse"
-                    aria-expanded="false"
-                    aria-controls="accordion-faq-four"
-                  >
-                    Is There Customer Support Available?
-                    <i className="icon-CaretDown" />
-                  </a>
-                  <div
-                    id="accordion-faq-four"
-                    className="collapse"
-                    data-bs-parent="#wrapper-faq"
-                  >
-                    <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
-                    </p>
-                  </div>
-                </li>
-                <li className="faq-item">
-                  <a
-                    href="#accordion-faq-five"
-                    className="faq-header h6 collapsed"
-                    data-bs-toggle="collapse"
-                    aria-expanded="false"
-                    aria-controls="accordion-faq-five"
-                  >
-                    How Can I Update My Account Information?
-                    <i className="icon-CaretDown" />
-                  </a>
-                  <div
-                    id="accordion-faq-five"
-                    className="collapse"
-                    data-bs-parent="#wrapper-faq"
-                  >
-                    <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
-                    </p>
-                  </div>
-                </li>
+                
+                
               </ul>
             </div>
             <div className="tf-faq mb-49">
-              <h3 className="fw-8 title mb-24">Costs and Payments</h3>
+              <h3 className="fw-8 title mb-24"> DUBAI REAL ESTATE INVESTOR-FAQs</h3>
               <ul className="box-faq" id="wrapper-faq-2">
                 <li className="faq-item">
                   <a
@@ -152,7 +92,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion2-faq-one"
                   >
-                    How Do You Calculate Fees?
+                    What are the regulations for owning property in Dubai as a foreigner?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -161,11 +101,13 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-2"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      Foreign nationals are allowed to purchase and fully own property in designated freehold areas across Dubai. This enables expatriates and international buyers—even those not residing in the UAE—to enjoy full ownership rights, without leasehold or usage restrictions, for long-term security. <br /> <b>Key points to know:</b>
+                      <br />
+                      • Property ownership is officially registered and issued through the Dubai Land Department. <br />
+                      • There are no age restrictions for owning property. <br />
+                      •	Popular freehold locations include Business Bay, Downtown Dubai, Discovery Gardens, Palm Jumeirah, and DIFC. <br />
+                      <b>Dubai’s real estate laws</b> are widely considered more flexible and investor-friendly compared to many other emirates, making it a preferred destination for international property buyers.
+
                     </p>
                   </div>
                 </li>
@@ -177,7 +119,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion2-faq-two"
                   >
-                    How Do I Pay My Invoices?
+                    What property ownership options are available to foreign buyers in the UAE?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -186,11 +128,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-2"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                     Foreign buyers in the UAE can own property primarily in designated freehold zones, where full ownership rights are granted without time limitations. These properties may include apartments, villas, townhouses, and select commercial units. Outside freehold areas, ownership may be structured as long-term leasehold or usufruct rights, depending on local regulations. Ownership rules vary by emirate, so buyers should always confirm eligibility, property type, and registration requirements before proceeding with a purchase.
                     </p>
                   </div>
                 </li>
@@ -202,7 +140,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion2-faq-three"
                   >
-                    Are There Opportunities For Discounts Or Promotions?
+                    How is Dubai’s property purchase process different from other UAE emirates?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -211,11 +149,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-2"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      Dubai offers one of the most structured and transparent property buying processes in the UAE. Transactions are regulated by the Dubai Land Department, ensuring secure title registration and clear legal procedures. Compared to other emirates, Dubai provides a wider range of freehold areas for foreign buyers, faster transaction timelines, and a more mature real estate ecosystem. This clarity and accessibility make Dubai especially attractive to international investors and first-time buyers.
                     </p>
                   </div>
                 </li>
@@ -227,8 +161,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion2-faq-four"
                   >
-                    Are There Any Hidden Fees Not Displayed In The Pricing
-                    Table?
+                    Why is Dubai or the UAE considered a strong destination for real estate investment?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -237,11 +170,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-2"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      Dubai and the UAE are viewed as strong real estate investment destinations due to their stable economy, world-class infrastructure, and global connectivity. The market benefits from high rental demand, investor-friendly regulations, and long-term growth driven by tourism and expatriate populations. Additionally, the absence of annual property taxes in many emirates, combined with strong legal frameworks, enhances overall returns and investor confidence.
                     </p>
                   </div>
                 </li>
@@ -253,7 +182,7 @@ export default function Faqs() {
                     aria-expanded="false"
                     aria-controls="accordion2-faq-five"
                   >
-                    What Is The Refund Procedure?
+                    What costs or taxes should property owners expect in Dubai or the UAE?
                     <i className="icon-CaretDown" />
                   </a>
                   <div
@@ -262,42 +191,14 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-2"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      Property owners in Dubai and the UAE generally do not pay annual property taxes or capital gains tax on residential real estate. However, buyers should budget for one-time costs such as registration fees, developer charges, agent commissions, and ongoing service or maintenance fees. These costs vary by property type and location but are clearly defined, allowing buyers to plan their investment with transparency and confidence.
                     </p>
                   </div>
                 </li>
-                <li className="faq-item">
-                  <a
-                    href="#accordion2-faq-six"
-                    className="faq-header h6 collapsed"
-                    data-bs-toggle="collapse"
-                    aria-expanded="false"
-                    aria-controls="accordion2-faq-six"
-                  >
-                    Is There Financial Or Accounting Support?
-                    <i className="icon-CaretDown" />
-                  </a>
-                  <div
-                    id="accordion2-faq-six"
-                    className="collapse"
-                    data-bs-parent="#wrapper-faq-2"
-                  >
-                    <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
-                    </p>
-                  </div>
-                </li>
+               
               </ul>
             </div>
-            <div className="tf-faq">
+            {/* <div className="tf-faq">
               <h3 className="fw-8 title mb-24">Safety and Security</h3>
               <ul className="box-faq" id="wrapper-faq-3">
                 <li className="faq-item">
@@ -317,11 +218,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -342,11 +239,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -367,11 +260,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -392,11 +281,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -417,11 +302,7 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
@@ -442,16 +323,12 @@ export default function Faqs() {
                     data-bs-parent="#wrapper-faq-3"
                   >
                     <p className="faq-body">
-                      Once your account is set up and you've familiarized
-                      yourself with the platform, you are ready to start using
-                      our services. Whether it's accessing specific features,
-                      making transactions, or utilizing our tools, you'll find
-                      everything you need at your fingertips.
+                      We work with a wide network of trusted vendors and real estate agents to present verified property options that match our clients’ needs, budget, and preferences.
                     </p>
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="tf-sidebar sticky-sidebar">
@@ -463,7 +340,7 @@ export default function Faqs() {
                       alt=""
                       width={200}
                       height={200}
-                      src="/images/avatar/seller.jpg"
+                      src="/images/avatar/bindals.png"
                     />
                   </div>
                   <div className="content">
