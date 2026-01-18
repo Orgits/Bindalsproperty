@@ -17,7 +17,7 @@ export default function Header1({ parentClass = "header" }) {
                       className="logo_header"
                       alt=""
                       data-light="/images/logo/logo@2x.png"
-                      data-dark="/images/logo/logo-2@2x.png"
+                      data-dark="/images/logo/logo@2x.png"
                       src="/images/logo/logo@2x.png"
                     />
                   </Link>
