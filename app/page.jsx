@@ -12,8 +12,8 @@ import Properties2 from "@/components/homes/home-1/Properties2";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 
 export const metadata = {
-  title: "Home 01 || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Bindals Property Hub - Luxury Real Estate ",
+  description: "Bindals Property Hub - Luxury Real Estate",
 };
 export default function Home() {
   return (

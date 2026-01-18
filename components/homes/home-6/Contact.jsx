@@ -180,7 +180,7 @@ export default function Contact() {
                     </div>
                     <div className="content">
                       <div className="sub text-color2">Email us</div>
-                      <a href="#">themesflat@gmail.com</a>
+                      <a href="#">bindalspropertyhub@gmail.com</a>
                     </div>
                   </li>
                 </ul>

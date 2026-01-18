@@ -17,7 +17,7 @@ export default function Topbar() {
                 <li>
                   <i className="icon-mail" />
                   <p>
-                    Email: <a href="#">themesflat@gmail.com</a>
+                    Email: <a href="#">bindalspropertyhub@gmail.com</a>
                   </p>
                 </li>
               </ul>

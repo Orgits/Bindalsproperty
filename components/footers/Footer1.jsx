@@ -288,7 +288,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
               <div className="text-3  fw-6 text_white">Follow us</div>
               <ul className="tf-social ">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/Bindalspropertyhub/">
                     <i className="icon-fb" />
                   </a>
                 </li>
@@ -303,7 +303,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/bindalspropertyhub/">
                     <i className="icon-ins" />
                   </a>
                 </li>

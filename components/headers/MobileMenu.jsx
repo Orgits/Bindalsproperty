@@ -283,22 +283,22 @@ export default function MobileMenu() {
             </a>
             <ul className="mb-info">
               <li>
-                Call Us Now: <span className="number">1-555-678-8888</span>
+                Call Us Now: <span className="number">+91 9873940835</span>
               </li>
               <li>
-                Support 24/7: <a href="#">themesflat@gmail.com</a>
+                Support 24/7: <a href="#">bindalspropertyhub@gmail.com</a>
               </li>
               <li>
                 <div className="wrap-social">
                   <p>Follow us:</p>
                   <ul className="tf-social style-2">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/Bindalspropertyhub/">
                         <i className="icon-fb" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/bindalspropertyhub/">
                         <i className="icon-X" />
                       </a>
                     </li>

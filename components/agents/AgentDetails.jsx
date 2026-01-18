@@ -91,7 +91,7 @@ export default function AgentDetails({ agent }) {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <a href="#">themesflat@gmail.com</a>
+                    <a href="#">bindalspropertyhub@gmail.com</a>
                   </li>
                   <li>
                     <svg
