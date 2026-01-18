@@ -82,8 +82,8 @@ export default function Footer2({ parentClass = "" }) {
                   <Image
                     id="logo_footer"
                     alt="logo-footer"
-                    width={272}
-                    height={85}
+                    width={268}
+                    height={97}
                     src="/images/logo/logo-2@2x.png"
                   />
                 </Link>
@@ -96,7 +96,7 @@ export default function Footer2({ parentClass = "" }) {
                   <div className="content">
                     <div className="title text-1">Address</div>
                     <h6>
-                      <a href="#">Bindals Property Hub-support@gmail.com</a>
+                      <a href="#">info@bindalsproperty.com</a>
                     </h6>
                   </div>
                 </div>
@@ -116,9 +116,9 @@ export default function Footer2({ parentClass = "" }) {
                     <i className="icon-letter-2" />
                   </div>
                   <div className="content">
-                    <div className="title text-1">Nee live help</div>
+                    <div className="title text-1">Need help</div>
                     <h6 className="fw-4">
-                      <a href="#"> Bindals Property Hub-support@gmail.com </a>
+                      <a href="#"> info@bindalsproperty.com </a>
                     </h6>
                   </div>
                 </div>

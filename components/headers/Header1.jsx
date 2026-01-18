@@ -16,9 +16,9 @@ export default function Header1({ parentClass = "header" }) {
                     <img
                       className="logo_header"
                       alt=""
-                      data-light="/images/logo/logo@2x.png"
-                      data-dark="/images/logo/logo@2x.png"
-                      src="/images/logo/logo@2x.png"
+                      data-light="/images/logo/logo@2x.svg"
+                      data-dark="/images/logo/logo@2x.svg"
+                      src="/images/logo/logo@2x.svg"
                     />
                   </Link>
                 </div>

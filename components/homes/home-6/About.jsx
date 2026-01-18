@@ -42,9 +42,9 @@ export default function About() {
                       <i className="icon-letter-2" />
                     </div>
                     <div className="content">
-                      <div className="title text-1">Nee live help</div>
+                      <div className="title text-1">Need help</div>
                       <h6 className="fw-4">
-                        <a href="#"> Bindals Property Hub-support@gmail.com </a>
+                        <a href="#"> info@bindalsproperty.com </a>
                       </h6>
                     </div>
                   </div>

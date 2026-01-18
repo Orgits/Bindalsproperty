@@ -77,8 +77,8 @@ export default function About() {
                         </svg>
                       </div>
                       <div className="content">
-                        <div className="sub">Nee live help</div>
-                        <p>Bindals Property Hub-support@gmail.com</p>
+                        <div className="sub">Need help</div>
+                        <p>info@bindalsproperty.com</p>
                       </div>
                     </li>
                   </ul>
