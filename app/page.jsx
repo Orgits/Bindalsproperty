@@ -29,7 +29,7 @@ export default function Home() {
         {/* <Properties2 /> */}
         <Partners />
         <Blogs />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </div>
       <Footer1 />
     </>

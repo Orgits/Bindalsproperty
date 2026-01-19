@@ -25,7 +25,7 @@ export default async function page({ params }) {
         <div className="main-content">
           <Breadcumb pageName="Blog Details" />
           <BlogDetails blog={blog} />
-          <RelatedBlogs />
+          {/* <RelatedBlogs /> */}
           <Cta />
         </div>
         <Footer1 />

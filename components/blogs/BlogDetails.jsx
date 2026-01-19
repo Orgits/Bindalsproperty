@@ -76,15 +76,12 @@ export default function BlogDetails({ blog }) {
                   <p>0 comment</p>
                 </div>
                 <div className="meta-item flex align-center">
-                  <p>26 August, 2024</p>
+                  <p>28 January, 2026</p>
                 </div>
               </div>
             </div>
             <p className="fw-5 text-color-heading mb-30">
-              The housing sector has long been a focal point for investors
-              seeking stability and growth. Understanding the dynamics of
-              housing stocks and effectively trading within this sector can lead
-              to substantial gains.
+              Comming Soon...
             </p>
             <div className="image-wrap mb-30">
               <Image
@@ -96,7 +93,7 @@ export default function BlogDetails({ blog }) {
                 src="/images/blog/blog-details.jpg"
               />
             </div>
-            <div className="wrap-content mb-20">
+            {/* <div className="wrap-content mb-20">
               <h4 className="mb-18">Understanding Housing Stocks</h4>
               <p className="mb-20">
                 Housing stocks encompass companies involved in various aspects
@@ -160,7 +157,7 @@ export default function BlogDetails({ blog }) {
                 news. Keep a close eye on earnings reports and government
                 housing data releases.
               </p>
-            </div>
+            </div> */}
             <div className="tag-wrap flex justify-between items-center">
               <div className="tags">
                 <p>Tags:</p>
@@ -195,13 +192,13 @@ export default function BlogDetails({ blog }) {
                 </ul>
               </div>
             </div>
-            <CommentSection />
+            {/* <CommentSection /> */}
           </div>
           <div className="col-lg-4">
             <div className="tf-sidebar">
-              <div className="sidebar-search sidebar-item">
-                <h4 className="sidebar-title">Search Blog</h4>
-                <form
+              {/* <div className="sidebar-search sidebar-item"> */}
+                {/* <h4 className="sidebar-title">Search Blog</h4> */}
+                {/* <form
                   onSubmit={(e) => e.preventDefault()}
                   className="form-search"
                 >
@@ -222,9 +219,9 @@ export default function BlogDetails({ blog }) {
                       <i className="icon-MagnifyingGlass" />
                     </button>
                   </div>
-                </form>
-              </div>
-              <div className="sidebar-item sidebar-categories">
+                </form> */}
+              {/* </div> */}
+              {/* <div className="sidebar-item sidebar-categories">
                 <h4 className="sidebar-title">Categories</h4>
                 <ul className="list-categories">
                   <li className="flex items-center justify-between">
@@ -270,7 +267,7 @@ export default function BlogDetails({ blog }) {
                     <div className="number">(69)</div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="sidebar-item sidebar-featured pb-36">
                 <h4 className="sidebar-title">Featured Listings</h4>
                 <ul>
@@ -315,7 +312,7 @@ export default function BlogDetails({ blog }) {
                   ))}
                 </ul>
               </div>
-              <div className="sidebar-newslatter sidebar-item">
+              {/* <div className="sidebar-newslatter sidebar-item">
                 <h4 className="sidebar-title">Join Our Newsletter</h4>
                 <p>
                   Signup to be the first to hear about exclusive deals, special
@@ -343,7 +340,7 @@ export default function BlogDetails({ blog }) {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
               <div className="sidebar-item sidebar-tags">
                 <h4 className="sidebar-title">Popular Tags</h4>
                 <ul className="tags-list">

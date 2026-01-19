@@ -8,7 +8,7 @@ import SplitTextAnimation from "@/components/common/SplitTextAnimation";
 import { Pagination } from "swiper/modules";
 export default function Blogs() {
   return (
-    <section className="section-opinion ">
+    <section className="section-opinion "style={{marginBottom: "80px"}}>
       <div className="tf-container">
         <div className="row">
           <div className="col-12">

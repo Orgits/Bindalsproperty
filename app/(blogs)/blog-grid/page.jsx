@@ -1,3 +1,4 @@
+import Blogs1 from "@/components/blogs/Blogs1";
 import Blogs2 from "@/components/blogs/Blogs2";
 
 import Breadcumb from "@/components/common/Breadcumb";
