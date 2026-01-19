@@ -13,11 +13,11 @@ export default function Categories({
       <div className="tf-container">
         <div className="heading-section text-center mb-48">
           <h2 className="title split-text effect-right">
-            <SplitTextAnimation text="Try Searching For" />
+            <SplitTextAnimation text="Real Estate Services We Offer" />
           </h2>
           <p className="text-1 split-text split-lines-transform">
-            Thousands of luxury home enthusiasts just like you have found their
-            dream home
+            Our network includes trusted vendors and experienced real estate agents.
+Every service is delivered with transparency, expertise, and client-focused support.
           </p>
         </div>
         <div className="wrap-categories-sw">
@@ -57,7 +57,7 @@ export default function Categories({
                   </div>
                   <div className="content text-center">
                     <h5>{category.name}</h5>
-                    <p className="mt-4 text-1">234 Property</p>
+                    {/* <p className="mt-4 text-1">234 Property</p> */}
                   </div>
                 </a>
               </SwiperSlide>

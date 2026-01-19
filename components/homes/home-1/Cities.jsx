@@ -4,7 +4,7 @@ import SplitTextAnimation from "@/components/common/SplitTextAnimation";
 import { locations3 } from "@/data/locations";
 export default function Cities() {
   return (
-    <section className="section-neighborhoods ">
+    <section className="section-neighborhoods " style={{marginBottom: "40px", marginTop: "30px"}}>
       <div className="tf-container full">
         <div className="col-12">
           <div className="heading-section text-center mb-48">
@@ -25,6 +25,7 @@ export default function Cities() {
                   <a href="#">
                     <Image
                       className="lazyload"
+                    
                       data-src={location.imageSrc}
                       alt={location.alt}
                       src={location.imageSrc}
@@ -35,12 +36,12 @@ export default function Cities() {
                 </div>
                 <div className="content">
                   <h6 className="text_white">{location.city}</h6>
-                  <a
+                  {/* <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text_white"
                   >
                     {location.properties} <i className="icon-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             ))}

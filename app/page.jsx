@@ -24,9 +24,9 @@ export default function Home() {
         <Categories />
         <Properties />
         <HelpCenter />
-        <LoanCalculator />
+        {/* <LoanCalculator /> */}
         <Cities />
-        <Properties2 />
+        {/* <Properties2 /> */}
         <Partners />
         <Blogs />
         <Testimonials />

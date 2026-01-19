@@ -17,7 +17,7 @@ export default function Partners() {
                   className="text-1 text_white wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                 >
-                  Thousands of luxury property enthusiasts just like you visit our website.
+                  Get expert support to maximize value and close with confidence.
                 </p>
               </div>
               <BrandSlider />
@@ -40,11 +40,10 @@ export default function Partners() {
                     className="text-1 split-text split-lines-transform"
                     data-wow-duration="1.5s"
                   >
-                    Thousands of luxury home enthusiasts just like you visit our
-                    website.
+                    Get expert support to maximize value and close with confidence.
                   </p>
                 </div>
-                <a href="#" className="tf-btn bg-color-primary fw-7 pd-11">
+                <a href="./contact" className="tf-btn bg-color-primary fw-7 pd-11">
                   Request your free appraisal
                 </a>
                 <div
@@ -53,9 +52,10 @@ export default function Partners() {
                 >
                   <Image
                     alt=""
-                    src="/images/section/person-1.png"
-                    width={366}
-                    height={491}
+                    src="/images/section/del.jpg"
+                    width={405}
+                    height={495}
+                    allign="center"
                   />
                 </div>
               </div>
