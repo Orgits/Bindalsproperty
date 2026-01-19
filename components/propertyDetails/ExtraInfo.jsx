@@ -8,7 +8,7 @@ export default function ExtraInfo() {
       </div>
       <div className="content">
         <p className="description text-1">
-        Mahadev Apartment, developed by Bindal Property Hub, offers ready-to-move-in 2, 3 & 4 BHK apartments and premium penthouses with multiple size options. Prices start from ₹60 lakh and go up to ₹1.30 crore, with a booking amount of ₹5–10 lakh. 
+        Mahadev Apartment, developed by Bindals Property Hub, offers ready-to-move-in 2, 3 & 4 BHK apartments and premium penthouses with multiple size options. Prices start from ₹60 lakh and go up to ₹1.30 crore, with a booking amount of ₹5–10 lakh. 
         </p>
         <a href="#" className="tf-btn-link style-hover-rotate">
           {/* <span>Read More </span> */}

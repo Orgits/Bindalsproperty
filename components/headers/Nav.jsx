@@ -43,7 +43,7 @@ export default function Nav() {
         //   isParentActive(propertyLinks) ? "current-menu" : ""
         // } `}
       >
-        <a href="#">Listing</a>
+        <a href="/property-detail-v1/1">Listing</a>
         {/* <ul className="submenu">
           {propertyLinks.map((menu, index) => (
             <li key={index}>
