@@ -28,7 +28,7 @@ export default function Properties() {
               data-space={15}
             >
               <div className="swiper-wrapper tf-layout-mobile-md md-col-2  lg-col-3 ">
-                {properties.map((property, i) => (
+                {properties.slice(0, 3).map((property, i) => (
                   <div key={i} className="swiper-slide">
                     <div className="box-house hover-img ">
                       <div className="image-wrap">
@@ -82,7 +82,7 @@ export default function Properties() {
                         </ul>
                         <div className="bot flex justify-between items-center">
                           <h5 className="price">
-                            ${property.price.toLocaleString()}
+                            ₹{property.price.toLocaleString()}
                           </h5>
                           <div className="wrap-btn flex">
                             <a
@@ -117,11 +117,11 @@ export default function Properties() {
               }}
               spaceBetween={15}
             >
-              {properties.map((property, i) => (
+              {properties.slice(0, 2).map((property, i) => (
                 <SwiperSlide key={i} className="swiper-slide">
                   <div className="box-house hover-img ">
                     <div className="image-wrap">
-                      <Link href={`/property-detail-v1/${property.id}`}>
+                      <Link href={`/property-detail-v1/₹{property.id}`}>
                         <Image
                           className="lazyload"
                           alt=""
@@ -171,7 +171,7 @@ export default function Properties() {
                       </ul>
                       <div className="bot flex justify-between items-center">
                         <h5 className="price">
-                          ${property.price.toLocaleString()}
+                          ₹{property.price.toLocaleString()}
                         </h5>
                         <div className="wrap-btn flex">
                           <a
