@@ -8,15 +8,11 @@ export default function ExtraInfo() {
       </div>
       <div className="content">
         <p className="description text-1">
-          3 Units in North Hollywood with upside potential through construction
-          of an ADU (buyer to verify). Unit mix consists of (3) 3+1 bath units.
-          The building is a total of 2, 660 square feet and situated on a 6, 001
-          square foot lot. Easy access to the 101, 170, and 134 freeways. The
-          building is separately metered for gas and electricity.
+        Mahadev Apartment, developed by Bindal Property Hub, offers ready-to-move-in 2, 3 & 4 BHK apartments and premium penthouses with multiple size options. Prices start from ₹60 lakh and go up to ₹1.30 crore, with a booking amount of ₹5–10 lakh. 
         </p>
         <a href="#" className="tf-btn-link style-hover-rotate">
-          <span>Read More </span>
-          <svg
+          {/* <span>Read More </span> */}
+          {/* <svg
             width={20}
             height={20}
             viewBox="0 0 20 20"
@@ -56,52 +52,51 @@ export default function ExtraInfo() {
                 />
               </clipPath>
             </defs>
-          </svg>
+          </svg> */}
         </a>
       </div>
       <div className="box">
         <ul>
           <li className="flex">
-            <p className="fw-6">ID</p>
-            <p>#1234</p>
+            <p className="fw-6">Booking amount</p>
+            <p>5-10 Lakh</p>
           </li>
           <li className="flex">
-            <p className="fw-6">Price</p>
-            <p>$7,500</p>
+            <p className="fw-6">Possession</p><p>READY TO MOVE IN</p>
           </li>
           <li className="flex">
-            <p className="fw-6">Size</p>
-            <p>150 sqft</p>
+            <p className="fw-6">Rera number  </p>
+            <p>NOT APPLICABLE</p>
           </li>
           <li className="flex">
             <p className="fw-6">Rooms</p>
-            <p>9</p>
+            <p>2</p>
           </li>
           <li className="flex">
             <p className="fw-6">Baths</p>
-            <p>3</p>
+            <p>2</p>
           </li>
         </ul>
         <ul>
           <li className="flex">
             <p className="fw-6">Beds</p>
-            <p>7.328</p>
+            <p>2</p>
           </li>
           <li className="flex">
             <p className="fw-6">Year buit</p>
-            <p>2022</p>
+            <p>2025</p>
           </li>
           <li className="flex">
             <p className="fw-6">Type</p>
-            <p>Villa</p>
+            <p>Flats</p>
           </li>
           <li className="flex">
             <p className="fw-6">Status</p>
             <p>For sale</p>
           </li>
           <li className="flex">
-            <p className="fw-6">Garage</p>
-            <p>1</p>
+            <p className="fw-6">Parking</p>
+            <p>Availible</p>
           </li>
         </ul>
       </div>

@@ -11,8 +11,8 @@ export default function Slider1() {
               <div className="wrap-image">
                 <div className="image img-1">
                   <Item
-                    original="/images/section/property-detail-3.jpg"
-                    thumbnail="/images/section/property-detail-3.jpg"
+                    original="/images/section/sl/2.jpeg"
+                    thumbnail="/images/section/sl/2.jpeg"
                     width={1095}
                     height={771}
                   >
@@ -25,9 +25,9 @@ export default function Slider1() {
                         <Image
                           ref={ref}
                           className="lazyload"
-                          data-src="/images/section/property-detail-3.jpg"
+                          data-src="/images/section/sl/3.jpeg"
                           alt=""
-                          src="/images/section/property-detail-3.jpg"
+                          src="/images/section/sl/3.jpeg"
                           width={1095}
                           height={771}
                         />
@@ -60,8 +60,8 @@ export default function Slider1() {
                 <div className="wrap-image-right">
                   <div className="image img-2">
                     <Item
-                      original="/images/section/property-detail-4.jpg"
-                      thumbnail="/images/section/property-detail-4.jpg"
+                      original="/images/section/sl/4.jpeg"
+                      thumbnail="/images/section/sl/4.jpeg"
                       width={804}
                       height={375}
                     >
@@ -75,7 +75,7 @@ export default function Slider1() {
                             ref={ref}
                             className="lazyload"
                             alt=""
-                            src="/images/section/property-detail-4.jpg"
+                            src="/images/section/sl/5.jpeg"
                             width={804}
                             height={375}
                           />
@@ -86,8 +86,8 @@ export default function Slider1() {
                   <div className="bot">
                     <div className="image img-3">
                       <Item
-                        original="/images/section/property-detail-5.jpg"
-                        thumbnail="/images/section/property-detail-5.jpg"
+                        original="/images/section/sl/5.jpeg"
+                        thumbnail="/images/section/sl/5.jpeg"
                         width={392}
                         height={375}
                       >
@@ -101,7 +101,7 @@ export default function Slider1() {
                               ref={ref}
                               className="lazyload"
                               alt=""
-                              src="/images/section/property-detail-5.jpg"
+                              src="/images/section/sl/5.jpeg"
                               width={392}
                               height={375}
                             />
@@ -111,8 +111,8 @@ export default function Slider1() {
                     </div>
                     <div className="image img-4">
                       <Item
-                        original="/images/section/property-detail-6.jpg"
-                        thumbnail="/images/section/property-detail-6.jpg"
+                        original="/images/section/sl/6.jpeg"
+                        thumbnail="/images/section/sl/6.jpeg"
                         width={392}
                         height={375}
                       >
@@ -126,7 +126,7 @@ export default function Slider1() {
                               ref={ref}
                               className="lazyload"
                               alt=""
-                              src="/images/section/property-detail-6.jpg"
+                              src="/images/section/sl/6.jpeg"
                               width={392}
                               height={375}
                             />

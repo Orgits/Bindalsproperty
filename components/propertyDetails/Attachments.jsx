@@ -17,7 +17,7 @@ export default function Attachments() {
                 height={80}
               />
             </div>
-            <span>Villa-Document.pdf</span>
+            {/* <span>Villa-Document.pdf</span> */}
             <i className="icon icon-DownloadSimple" />
           </a>
         </div>
@@ -31,7 +31,7 @@ export default function Attachments() {
                 height={80}
               />
             </div>
-            <span>Villa-Document.pdf</span>
+            {/* <span>Villa-Document.pdf</span> */}
             <i className="icon icon-DownloadSimple" />
           </a>
         </div>

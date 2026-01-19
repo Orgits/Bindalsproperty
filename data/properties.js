@@ -1,7 +1,7 @@
 export const properties = [
   {
     id: 1,
-    imageSrc: "/images/section/box-house-10.jpg",
+    imageSrc: "/images/section/sl/1.jpeg",
     title: "MAHADEV APARTMENT",
     location: "Dasrathpuri metro station gate no 3,Mahavir Enclave Part 1,  New Delhi - 110045",
     beds: 2,

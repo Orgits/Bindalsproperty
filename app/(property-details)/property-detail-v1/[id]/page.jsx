@@ -26,8 +26,8 @@ export default async function page({ params }) {
         <div className="main-content">
           <Slider1 />
           <Details1 property={property} />
-          <RelatedProperties />
-          <Cta />
+          {/* <RelatedProperties /> */}
+          {/* <Cta /> */}
         </div>
         <Footer1 />
       </div>

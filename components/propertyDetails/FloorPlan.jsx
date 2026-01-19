@@ -55,7 +55,7 @@ export default function FloorPlan() {
             aria-expanded="false"
             aria-controls="floor-two"
           >
-            <div className="inner-left">
+            {/* <div className="inner-left">
               <i className="icon icon-CaretDown" />
               <span className="text-btn">Second Floor</span>
             </div>
@@ -82,7 +82,7 @@ export default function FloorPlan() {
                   height={501}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </li>
       </ul>

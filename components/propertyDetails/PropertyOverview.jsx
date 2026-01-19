@@ -8,25 +8,25 @@ export default function PropertyOverview({ property }) {
           {property.title}
         </div>
         <div className="price text-5 fw-6 text-color-heading">
-          $250,00{" "}
-          <span className="h5 lh-30 fw-4 text-color-default">/month</span>
+          ₹60 Lacs.{" "}
+          <span className="h5 lh-30 fw-4 text-color-default"></span>
         </div>
       </div>
       <div className="info flex justify-between">
         <div className="feature">
           <p className="location text-1 flex items-center gap-10">
             <i className="icon-location" />
-            102 102 Ingraham St, Brooklyn, NY 11237
+            102 Dasrathpuri metro station gate no 3,Mahavir Enclave Part 1,  New Delhi - 110045
           </p>
           <ul className="meta-list flex">
             <li className="text-1 flex">
-              <span>3</span>Bed
+              <span>2</span>Bed
             </li>
             <li className="text-1 flex">
-              <span>3</span>Bath
+              <span>2</span>Bath
             </li>
             <li className="text-1 flex">
-              <span>4,043</span>Sqft
+              <span>675</span>Sqft
             </li>
           </ul>
         </div>
@@ -139,7 +139,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Type:</div>
-              <div className="text-1 text-color-heading">Hourse</div>
+              <div className="text-1 text-color-heading">Flats</div>
             </div>
           </div>
           <div className="box-icon">
@@ -147,8 +147,8 @@ export default function PropertyOverview({ property }) {
               <i className="icon-Crop" />
             </div>
             <div className="content">
-              <div className="text-4 text-color-default">Land Size:</div>
-              <div className="text-1 text-color-heading">2,000 SqFt</div>
+              <div className="text-4 text-color-default">Square Yards:</div>
+              <div className="text-1 text-color-heading">75sq.yd</div>
             </div>
           </div>
         </div>
@@ -158,8 +158,8 @@ export default function PropertyOverview({ property }) {
               <i className="icon-Garage-1" />
             </div>
             <div className="content">
-              <div className="text-4 text-color-default">Garages</div>
-              <div className="text-1 text-color-heading">1</div>
+              <div className="text-4 text-color-default">Parking</div>
+              <div className="text-1 text-color-heading">Yes</div>
             </div>
           </div>
           <div className="box-icon">
@@ -168,7 +168,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Year Built:</div>
-              <div className="text-1 text-color-heading">2023</div>
+              <div className="text-1 text-color-heading">2025</div>
             </div>
           </div>
         </div>
@@ -188,12 +188,12 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Size:</div>
-              <div className="text-1 text-color-heading">900 SqFt</div>
+              <div className="text-1 text-color-heading">675 SqFt</div>
             </div>
           </div>
         </div>
       </div>
-      <a href="#" className="tf-btn bg-color-primary pd-21 fw-6">
+      <a href="https://wa.me/+9109873940835" className="tf-btn bg-color-primary pd-21 fw-6">
         Ask a question
       </a>
     </>

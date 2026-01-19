@@ -14,7 +14,7 @@ export default function Sidebar() {
           <div className="avartar">
             <Image
               alt=""
-              src="/images/avatar/seller.jpg"
+              src="/images/avatar/bindals.png"
               width={200}
               height={200}
             />
@@ -80,7 +80,7 @@ export default function Sidebar() {
         <div className="box-ads relative z-5">
           <div className="content">
             <h4 className="title">
-              <a href="#">We can help you find a local real estate agent</a>
+              <a href="tel:+919873244244">We can help you find a local real estate agent</a>
             </h4>
             <div className="text-addres">
               <p>
@@ -89,7 +89,7 @@ export default function Sidebar() {
               </p>
             </div>
           </div>
-          <a href="#" className="tf-btn fw-6 bg-color-primary fw-6 w-full">
+          <a href="tel:+919873244244" className="tf-btn fw-6 bg-color-primary fw-6 w-full">
             Connect with an agent
           </a>
         </div>
