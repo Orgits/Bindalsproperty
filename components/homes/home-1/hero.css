@@ -1,6 +1,11 @@
 .page-title.home01 {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 !important;
 }
 
 .hero-video {
@@ -18,4 +23,11 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.572);
   z-index: -1;
+}
+
+.heading-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

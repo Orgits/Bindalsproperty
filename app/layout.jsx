@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
         {children}
         <MobileMenu />
         <BackToTop />
-        <SettingsHandler />
+        {/* <SettingsHandler /> */}
         <Login />
         <Register />
       </body>
