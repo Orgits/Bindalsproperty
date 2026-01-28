@@ -27,7 +27,7 @@ export default function Hero() {
         {/* your existing hero content goes here */}
       </div>
 
-      <div className="tf-container " >
+      <div className="tf-container">
         <div className="row justify-center relative">
           <div className="col-lg-8 ">
             <div className="content-inner">

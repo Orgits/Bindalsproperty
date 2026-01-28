@@ -1,9 +1,52 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import Link from "next/link";
 import Image from "next/image";
 import DashboardNav from "./DashboardNav";
+import { usePathname } from "next/navigation";
+
 export default function Header1({ parentClass = "header" }) {
+  const pathname = usePathname();
+  const [isDark, setIsDark] = useState(false);
+
+  // Sync state with localStorage on component mount
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("isDark");
+    if (savedTheme) {
+      setIsDark(JSON.parse(savedTheme));
+    }
+  }, []);
+
+  // Handle checkbox change event
+  const handleCheckboxChange = () => {
+    const newIsDark = !isDark;
+    setIsDark(newIsDark);
+    localStorage.setItem("isDark", JSON.stringify(newIsDark));
+  };
+
+  useEffect(() => {
+    if (isDark) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }, [isDark]);
+
+  useEffect(() => {
+    const elements = document.querySelectorAll("[data-dark]");
+    elements.forEach((element) => {
+      const srcValueDark = element.getAttribute("data-dark");
+      const srcValueLight = element.getAttribute("data-light");
+
+      if (isDark) {
+        element.src = srcValueDark;
+      } else {
+        element.src = srcValueLight;
+      }
+    });
+  }, [pathname, isDark]);
+
   return (
     <header id="header-main" className={parentClass}>
       <div className="header-inner">
@@ -28,7 +71,7 @@ export default function Header1({ parentClass = "header" }) {
                   </ul>
                 </nav>
                 <div className="header-right">
-                  <div className="phone-number">
+                  <a href="tel:+919873940835" className="phone-number">
                     <div className="icons">
                       <svg
                         width={20}
@@ -47,7 +90,7 @@ export default function Header1({ parentClass = "header" }) {
                       </svg>
                     </div>
                     <p>+91 9873940835</p>
-                  </div>
+                  </a>
                   {/* <DashboardNav /> */}
                   <div className="btn-add">
                     <Link
@@ -56,6 +99,20 @@ export default function Header1({ parentClass = "header" }) {
                     >
                      Get In Touch
                     </Link>
+                  </div>
+                  <div className="toggle-container">
+                    <div className="toggle-switch">
+                      <label className="switch-label">
+                        <input
+                          type="checkbox"
+                          className="checkbox"
+                          id="theme-toggle"
+                          checked={isDark}
+                          onChange={handleCheckboxChange}
+                        />
+                        <span className="slider" />
+                      </label>
+                    </div>
                   </div>
                   <div
                     className="mobile-button"

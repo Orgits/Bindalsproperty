@@ -2,6 +2,7 @@
 import Image from "next/image";
 import SplitTextAnimation from "@/components/common/SplitTextAnimation";
 import BrandSlider from "@/components/common/BrandSlider";
+import "./partners.css";
 export default function Partners() {
   return (
     <section className="section-work-together ">
