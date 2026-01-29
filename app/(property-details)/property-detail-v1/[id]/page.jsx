@@ -24,7 +24,7 @@ export default async function page({ params }) {
         <Header1 />
         <Breadcumb pageName="Property Details 01" />
         <div className="main-content">
-          <Slider1 />
+          <Slider1 property={property} />
           <Details1 property={property} />
           {/* <RelatedProperties /> */}
           {/* <Cta /> */}

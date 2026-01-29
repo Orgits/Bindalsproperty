@@ -81,7 +81,7 @@ export default function BlogDetails({ blog }) {
               </div>
             </div>
             <p className="fw-5 text-color-heading mb-30">
-              Comming Soon...
+              Coming Soon...
             </p>
             <div className="image-wrap mb-30">
               <Image

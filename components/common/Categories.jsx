@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SplitTextAnimation from "./SplitTextAnimation";
 import { Pagination } from "swiper/modules";
+import Link from "next/link";
 
 export default function Categories({
   parentClass = "tf-spacing-1 section-categories pb-0",
@@ -46,11 +47,9 @@ Every service is delivered with transparency, expertise, and client-focused supp
           >
             {categories.map((category, index) => (
               <SwiperSlide className="swiper-slide" key={index}>
-                <a
-                  href="#"
-                  className={`categories-item ${
-                    category.isActive ? "active" : ""
-                  }`}
+                <Link
+                  href={category.name === "Apartment" ? "/#properties" : "#"}
+                  className={`categories-item`}
                 >
                   <div className="icon-box">
                     <i className={`icon ${category.icon}`}></i>
@@ -59,7 +58,7 @@ Every service is delivered with transparency, expertise, and client-focused supp
                     <h5>{category.name}</h5>
                     {/* <p className="mt-4 text-1">234 Property</p> */}
                   </div>
-                </a>
+                </Link>
               </SwiperSlide>
             ))}
 

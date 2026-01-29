@@ -21,50 +21,16 @@ export default function Nav() {
   return (
     <>
    
-      <li
-        // className={`has-child ${
-        //   homes.some((elm) => elm.href == pathname) ? "current-menu" : ""
-        // }`}
-      >
-        <a href="/.">Home</a>
-        {/* <ul className="submenu">
-          {homes.map((item, index) => (
-            <li
-              key={index}
-              className={pathname == item.href ? "current-item" : ""}
-            >
-              <Link href={item.href}>{item.label}</Link>
-            </li>
-          ))}
-        </ul> */}
+      <li>
+        <a href="/">Home</a>
       </li>
-      <li
-        // className={`has-child style-2 ${
-        //   isParentActive(propertyLinks) ? "current-menu" : ""
-        // } `}
-      >
-        <a href="/property-detail-v1/1">Listing</a>
-        {/* <ul className="submenu">
-          {propertyLinks.map((menu, index) => (
-            <li key={index}>
-              <a href="#">{menu.title}</a>
-              <ul className="submenu2">
-                {menu.submenu.map((item, subIndex) => (
-                  <li
-                    key={subIndex}
-                    className={
-                      pathname.split("/")[1] == item.href.split("/")[1]
-                        ? "current-item"
-                        : ""
-                    }
-                  >
-                    <Link href={item.href}>{item.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul> */}
+      <li className="has-child">
+        <a href="#">Listing</a>
+        <ul className="submenu">
+          <li>
+            <Link href="/#properties">Apartment</Link>
+          </li>
+        </ul>
       </li>
         <li className={"/faq" == pathname ? "current-menu" : ""}>
         <Link href={`/faq`}>FAQs</Link>
