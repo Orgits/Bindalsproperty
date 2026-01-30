@@ -62,6 +62,7 @@ export default function Header1({ parentClass = "header" }) {
                       data-light="/images/logo/logo@2x.svg"
                       data-dark="/images/logo/logo@2x.svg"
                       src="/images/logo/logo@2x.svg"
+                      style={{scale: '1.3'}}
                     />
                   </Link>
                 </div>

@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 export default function Properties() {
   return (
-    <section className="section-listing tf-spacing-1">
+    <section id="properties" className="section-listing tf-spacing-1">
       <div className="tf-container">
         <div className="row">
           <div className="col-12">
@@ -28,7 +28,7 @@ export default function Properties() {
               data-space={15}
             >
               <div className="swiper-wrapper tf-layout-mobile-md md-col-2  lg-col-3 ">
-                {properties.slice(0, 1).map((property, i) => (
+                {properties.map((property, i) => (
                   <div key={i} className="swiper-slide">
                     <div className="box-house hover-img ">
                       <div className="image-wrap">

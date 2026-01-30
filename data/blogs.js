@@ -2,21 +2,21 @@ export const blogPosts = [
   {
     id: 1,
     imgSrc: "/images/blog/blog-grid-1.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     date: "28 January, 2026",
     title: "RERA 2026: Key Real Estate Trends to Watch in 2026",
   },
   {
     id: 2,
     imgSrc: "/images/blog/blog-grid-2.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     date: "28 January, 2026",
     title: "Things to Check Before Buying Property in Delhi or Dubai",
   },
   {
     id: 3,
     imgSrc: "/images/blog/blog-grid-3.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     date: "28 January, 2026",
     title: "How to Price Your Property Right for a Faster Sale",
   },
@@ -159,7 +159,7 @@ export const blogArticles3 = [
     date: "28 January, 2026",
     title: "Building gains into housing stocks and how to trade the...",
     description:
-      "Comming soon",
+      "Coming soon",
   },
   {
     id: 22,
@@ -167,7 +167,7 @@ export const blogArticles3 = [
     date: "28 January, 2026",
     title: "Building gains into housing stocks and how to trade the...",
     description:
-      "Comming soon",
+      "Coming soon",
   },
   {
     id: 23,
@@ -175,7 +175,7 @@ export const blogArticles3 = [
     date: "28 January, 2026",
     title: "Building gains into housing stocks and how to trade the...",
     description:
-      "Comming soon",
+      "Coming soon",
   },
   {
     id: 24,
@@ -183,7 +183,7 @@ export const blogArticles3 = [
     date: "28 January, 2026",
     title: "Building gains into housing stocks and how to trade the...",
     description:
-      "Comming soon",
+      "Coming soon",
   },
   {
     id: 25,
@@ -191,28 +191,28 @@ export const blogArticles3 = [
     date: "28 January, 2026",
     title: "Building gains into housing stocks and how to trade the...",
     description:
-      "Comming soon",
+      "Coming soon",
   },
 ];
 export const blogArticles4 = [
   {
     id: 26,
     imageSrc: "/images/blog/blog-grid-1.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     title: "RERA 2026: Key Real Estate Trends to Watch in 2026",
     date: "28 January, 2026",
   },
   {
     id: 27,
     imageSrc: "/images/blog/blog-grid-2.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     title: "How to Price Your Property Right for a Faster Sale",
     date: "28 January, 2026",
   },
   {
     id: 28,
     imageSrc: "/images/blog/blog-grid-3.jpg",
-    tag: "Comming Soon",
+    tag: "Coming Soon",
     title: "Buying vs Renting: Which Option Makes More Sense Today?",
     date: "28 January, 2026",
   },

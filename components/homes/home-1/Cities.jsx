@@ -1,8 +1,18 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import SplitTextAnimation from "@/components/common/SplitTextAnimation";
 import { locations3 } from "@/data/locations";
+
 export default function Cities() {
+  // Helper function to get link for location
+  const getLocationLink = (city) => {
+    if (city.toLowerCase() === "mahavir enclave") {
+      return "/#properties";
+    }
+    return "#";
+  };
+
   return (
     <section className="section-neighborhoods " style={{marginBottom: "40px", marginTop: "30px"}}>
       <div className="tf-container full">
@@ -22,17 +32,17 @@ export default function Cities() {
                 className={`box-location hover-img item-${location.id}`}
               >
                 <div className="image-wrap">
-                  <a href="#">
+                  <Link href={getLocationLink(location.city)}>
                     <Image
                       className="lazyload"
-                    
+
                       data-src={location.imageSrc}
                       alt={location.alt}
                       src={location.imageSrc}
                       width={location.width}
                       height={location.height}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h6 className="text_white">{location.city}</h6>

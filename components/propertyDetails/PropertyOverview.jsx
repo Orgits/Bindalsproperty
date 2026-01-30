@@ -1,5 +1,15 @@
 import React from "react";
 
+// Helper function to format price in Indian currency format
+function formatPrice(price) {
+  if (price >= 10000000) {
+    return `₹${(price / 10000000).toFixed(2)} Cr.`;
+  } else if (price >= 100000) {
+    return `₹${(price / 100000).toFixed(2)} Lacs.`;
+  }
+  return `₹${price.toLocaleString("en-IN")}`;
+}
+
 export default function PropertyOverview({ property }) {
   return (
     <>
@@ -8,25 +18,25 @@ export default function PropertyOverview({ property }) {
           {property.title}
         </div>
         <div className="price text-5 fw-6 text-color-heading">
-          ₹60 Lacs.{" "}
-          <span className="h5 lh-30 fw-4 text-color-default"></span>
+          {formatPrice(property.price)}{" "}
+          {/* <span className="h5 lh-30 fw-4 text-color-default"></span> */}
         </div>
       </div>
       <div className="info flex justify-between">
         <div className="feature">
           <p className="location text-1 flex items-center gap-10">
             <i className="icon-location" />
-            102 Dasrathpuri metro station gate no 3,Mahavir Enclave Part 1,  New Delhi - 110045
+            {property.location}
           </p>
           <ul className="meta-list flex">
             <li className="text-1 flex">
-              <span>2</span>Bed
+              <span>{property.beds}</span>Bed
             </li>
             <li className="text-1 flex">
-              <span>2</span>Bath
+              <span>{property.baths}</span>Bath
             </li>
             <li className="text-1 flex">
-              <span>675</span>Sqft
+              <span>{property.sqft}</span>Sqft
             </li>
           </ul>
         </div>
@@ -119,7 +129,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">ID:</div>
-              <div className="text-1 text-color-heading">2297</div>
+              <div className="text-1 text-color-heading">{property.id}</div>
             </div>
           </div>
           <div className="box-icon">
@@ -128,7 +138,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Bathrooms:</div>
-              <div className="text-1 text-color-heading">2 Rooms</div>
+              <div className="text-1 text-color-heading">{property.baths} Rooms</div>
             </div>
           </div>
         </div>
@@ -139,7 +149,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Type:</div>
-              <div className="text-1 text-color-heading">Flats</div>
+              <div className="text-1 text-color-heading">{property.categories?.[0] || "Flats"}</div>
             </div>
           </div>
           <div className="box-icon">
@@ -148,7 +158,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Square Yards:</div>
-              <div className="text-1 text-color-heading">75sq.yd</div>
+              <div className="text-1 text-color-heading">{property.sqYards || "75"}sq.yd</div>
             </div>
           </div>
         </div>
@@ -159,7 +169,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Parking</div>
-              <div className="text-1 text-color-heading">Yes</div>
+              <div className="text-1 text-color-heading">{property.parking || "Yes"}</div>
             </div>
           </div>
           <div className="box-icon">
@@ -168,7 +178,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Year Built:</div>
-              <div className="text-1 text-color-heading">2025</div>
+              <div className="text-1 text-color-heading">{property.yearBuilt || "2025"}</div>
             </div>
           </div>
         </div>
@@ -179,7 +189,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Bedrooms:</div>
-              <div className="text-1 text-color-heading">2 Rooms</div>
+              <div className="text-1 text-color-heading">{property.beds} Rooms</div>
             </div>
           </div>
           <div className="box-icon">
@@ -188,7 +198,7 @@ export default function PropertyOverview({ property }) {
             </div>
             <div className="content">
               <div className="text-4 text-color-default">Size:</div>
-              <div className="text-1 text-color-heading">675 SqFt</div>
+              <div className="text-1 text-color-heading">{property.sqft} SqFt</div>
             </div>
           </div>
         </div>

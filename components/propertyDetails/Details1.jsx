@@ -25,7 +25,7 @@ export default function Details1({ property }) {
               <VideoReview />
             </div> */}
             <div className="wg-property box-property-detail">
-              <ExtraInfo />
+              <ExtraInfo property={property} />
             </div>
             <div className="wg-property box-amenities">
               <Features />
