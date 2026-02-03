@@ -229,8 +229,8 @@ export default function CookiePolicy() {
                       </p>
                       <p className="text-1 mb-12">
                         <strong>Email:</strong>{" "}
-                        <a href="mailto:info@bindalsproperty.com" className="text-color-primary">
-                          info@bindalsproperty.com
+                        <a href="mailto:bindalspropertyhub@gmail.com" className="text-color-primary">
+                          bindalspropertyhub@gmail.com
                         </a>
                       </p>
                       <p className="text-1">

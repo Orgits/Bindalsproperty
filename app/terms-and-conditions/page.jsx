@@ -49,8 +49,8 @@ export default function TermsAndConditions() {
                       <p className="text-1 mb-12">New Delhi 110045, India</p>
                       <p className="text-1">
                         <strong>Email:</strong>{" "}
-                        <a href="mailto:info@bindalsproperty.com" className="text-color-primary">
-                          info@bindalsproperty.com
+                        <a href="mailto:bindalspropertyhub@gmail.com" className="text-color-primary">
+                          bindalspropertyhub@gmail.com
                         </a>
                       </p>
                     </div>
@@ -220,8 +220,8 @@ export default function TermsAndConditions() {
                       </p>
                       <p className="text-1 mb-12">
                         <strong>Email:</strong>{" "}
-                        <a href="mailto:info@bindalsproperty.com" className="text-color-primary">
-                          info@bindalsproperty.com
+                        <a href="mailto:bindalspropertyhub@gmail.com" className="text-color-primary">
+                          bindalspropertyhub@gmail.com
                         </a>
                       </p>
                       <p className="text-1">
