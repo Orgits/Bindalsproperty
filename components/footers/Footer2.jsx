@@ -107,7 +107,7 @@ export default function Footer2({ parentClass = "" }) {
                   <div className="content">
                     <div className="title text-1">Call us</div>
                     <h6>
-                      <a href="#"> +91 9873940835</a>
+                      <a href="#"> +91 9873244244</a>
                     </h6>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ export default function Cta() {
                   Looking to buy or sell a home? We’re here to guide you toward the best possible outcome.
                 </p>
               </div>
-              <a href="tel:+919873940835" className="tf-btn style-2 fw-6">
+              <a href="tel:+919873244244" className="tf-btn style-2 fw-6">
                 Call your location agent
               </a>
             </div>

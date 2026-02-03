@@ -11,7 +11,7 @@ export default function Topbar() {
                 <li>
                   <i className="icon-phone-1" />
                   <p>
-                    Phone: <span className="fw-7">+91 9873940835</span>
+                    Phone: <span className="fw-7">+91 9873244244</span>
                   </p>
                 </li>
                 <li>

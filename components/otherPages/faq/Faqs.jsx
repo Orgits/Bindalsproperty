@@ -348,7 +348,7 @@ export default function Faqs() {
                     <ul className="contact">
                       <li>
                         <i className="icon-phone-1" />
-                        <span><a href="tel:09873940835">098739 40835</a></span>
+                        <span><a href="tel:09873244244">098732 44244</a></span>
                       </li>
                       <li>
                         <i className="icon-mail" />

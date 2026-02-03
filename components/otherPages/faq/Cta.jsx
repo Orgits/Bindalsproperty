@@ -58,7 +58,7 @@ export default function Cta() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    +91 9873940835
+                    +91 9873244244
                   </a>
                 </div>
               </div>

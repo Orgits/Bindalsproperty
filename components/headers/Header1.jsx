@@ -72,7 +72,7 @@ export default function Header1({ parentClass = "header" }) {
                   </ul>
                 </nav>
                 <div className="header-right">
-                  <a href="tel:+919873940835" className="phone-number">
+                  <a href="tel:+919873244244" className="phone-number">
                     <div className="icons">
                       <svg
                         width={20}
@@ -90,7 +90,7 @@ export default function Header1({ parentClass = "header" }) {
                         />
                       </svg>
                     </div>
-                    <p>+91 9873940835</p>
+                    <p>+91 9873244244</p>
                   </a>
                   {/* <DashboardNav /> */}
                   <div className="btn-add">

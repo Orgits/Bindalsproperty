@@ -48,7 +48,7 @@ export default function About() {
                       </div>
                       <div className="content">
                         <div className="sub">Office address</div>
-                        <div className="phone">+91 9873940835</div>
+                        <div className="phone">+91 9873244244</div>
                       </div>
                     </li>
                     <li className="animate__fadeInUp animate__animated">

@@ -104,7 +104,7 @@ export default function MobileMenu() {
             </a>
             <ul className="mb-info">
               <li>
-                Call Us Now: <span className="number">+91 9873940835</span>
+                Call Us Now: <span className="number">+91 9873244244</span>
               </li>
               <li>
                 Support 24/7: <a href="#">bindalspropertyhub@gmail.com</a>

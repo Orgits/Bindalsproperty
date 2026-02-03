@@ -104,7 +104,7 @@ export default function Contact() {
                     </div>
                     <div className="content">
                       <div className="sub text-color2">Office address</div>
-                      <div className="phone">+91 9873940835</div>
+                      <div className="phone">+91 9873244244</div>
                     </div>
                   </li>
                   <li className="wow animate__fadeInUp animate__animated">

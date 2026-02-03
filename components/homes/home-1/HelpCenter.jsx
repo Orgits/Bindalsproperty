@@ -68,7 +68,7 @@ export default function HelpCenter() {
                           We understand your needs, budget, and preferences to help you discover properties that truly fit your lifestyle and goals.
                         </p>
                         <a
-                          href="tel:+919873940835"
+                          href="tel:+919873244244"
                           className="tf-btn style-border pd-5 mx-auto"
                         >
                           Learn More
@@ -106,7 +106,7 @@ export default function HelpCenter() {
                           Get clarity on property prices, market trends, and long-term value so you can make informed and confident buying decisions.{" "}
                         </p>
                         <a
-                          href="tel:+919873940835"
+                          href="tel:+919873244244"
                           className="tf-btn style-border pd-5 mx-auto"
                         >
                           Learn More
@@ -140,7 +140,7 @@ export default function HelpCenter() {
                          From site visits to documentation and final closure, our team and trusted agents guide you through every step of the buying process.
                         </p>
                         <a
-                          href="tel:+919873940835"
+                          href="tel:+919873244244"
                           className="tf-btn style-border pd-5 mx-auto"
                         >
                           Learn More
@@ -279,7 +279,7 @@ export default function HelpCenter() {
             </div>
             <p className="text text-center text-1 " data-wow-duration="2s">
               Showcase your property with our expert marketing support.
-              <a href="https://wa.me/+919873940835" className="fw-7">
+              <a href="https://wa.me/+919873244244" className="fw-7">
                 Let’s chat
               </a>
             </p>

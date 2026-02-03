@@ -91,7 +91,7 @@ export default function About() {
                   </div>
                   <div className="content">
                     <div className="sub">Contact No.</div>
-                    <div style={{color:"black", fontSize: "16px"}}>+91 9873940835</div>
+                    <div style={{color:"black", fontSize: "16px"}}>+91 9873244244</div>
                   </div>
                 </li>
                 <li>

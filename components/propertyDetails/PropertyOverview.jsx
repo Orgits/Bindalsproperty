@@ -203,7 +203,7 @@ export default function PropertyOverview({ property }) {
           </div>
         </div>
       </div>
-      <a href="https://wa.me/+9109873940835" className="tf-btn bg-color-primary pd-21 fw-6">
+      <a href="https://wa.me/+9109873244244" className="tf-btn bg-color-primary pd-21 fw-6">
         Ask a question
       </a>
     </>
