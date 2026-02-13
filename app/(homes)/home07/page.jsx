@@ -15,8 +15,8 @@ import Footer1 from "@/components/footers/Footer1";
 import Footer2 from "@/components/footers/Footer2";
 
 export const metadata = {
-  title: "Home 07 || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Home 07 || Bindals Property Hub - Real Estate .",
+  description: "Bindals Property Hub - Real Estate .",
 };
 export default function page() {
   return (

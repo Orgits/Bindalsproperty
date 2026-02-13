@@ -14,8 +14,8 @@ import WelcomeSection from "@/components/homes/home-8/WelcomeSection";
 import React from "react";
 
 export const metadata = {
-  title: "Home 08 || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Home 08 || Bindals Property Hub - Real Estate .",
+  description: "Bindals Property Hub - Real Estate .",
 };
 export default function page() {
   return (

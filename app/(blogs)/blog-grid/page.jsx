@@ -8,8 +8,8 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 
 export const metadata = {
-  title: "Blog Grid || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Blog Grid || Bindals Property Hub - Real Estate .",
+  description: "Bindals Property Hub - Real Estate .",
 };
 export default function page() {
   return (

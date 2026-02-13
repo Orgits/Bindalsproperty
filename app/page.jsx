@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Blogs from "@/components/homes/home-1/Blogs";
@@ -18,6 +19,19 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+     {/* Google Tag */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17909613244"
+        strategy="afterInteractive"
+      />
+      <Script id="google-tag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17909613244');
+        `}
+      </Script>
       <Header1 />
       <Hero />
       <div className="main-content ">

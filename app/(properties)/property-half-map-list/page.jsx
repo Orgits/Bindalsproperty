@@ -6,8 +6,8 @@ import Properties6 from "@/components/properties/Properties6";
 import React from "react";
 
 export const metadata = {
-  title: "Property Half Map Grid || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Property Half Map Grid || Bindals Property Hub - Real Estate .",
+  description: "Bindals Property Hub - Real Estate .",
 };
 export default function page() {
   return (

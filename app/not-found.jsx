@@ -6,8 +6,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Page Not Found || Bindals Property Hub - Real Estate React Nextjs Template",
-  description: "Bindals Property Hub - Real Estate React Nextjs Template",
+  title: "Page Not Found || Bindals Property Hub - Real Estate .",
+  description: "Bindals Property Hub - Real Estate .",
 };
 export default function page() {
   return (
