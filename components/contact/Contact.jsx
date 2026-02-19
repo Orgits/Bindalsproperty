@@ -7,18 +7,18 @@ export default function Contact() {
   return (
     <section className="section-top-map style-2">
 
-     <div className="wrap-map">
-  <div
+     {/* <div className="wrap-map"> */}
+  {/* <div
     id="map"
     className="row-height"
     data-map-zoom={16}
     data-map-scroll="false"
   >
     <MapComponent />
-  </div>
+  </div> */}
  
-</div>
-      <div className="box">
+{/* </div> */}
+      <div style={{marginTop: "40px"}} className="box">
         <div className="tf-container">
           <div className="row">
             <div className="col-12">
