@@ -54,6 +54,17 @@ export default function Home() {
           fbq('track', 'PageView');
         `}
       </Script>
+{/* <!-- Event snippet for Submit lead form conversion page --> */}
+
+<Script id="google-ads" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'AW-17963893077');
+  `}
+</Script>
 
 
 
