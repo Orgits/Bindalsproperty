@@ -1,18 +1,21 @@
-import { properties11 } from "@/data/properties";
+import { properties } from "@/data/properties";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function PropertyListItems({ showItems = properties11.length }) {
+export default function PropertyListItems({ properties: propsList, showItems }) {
+  const items = propsList || properties;
+  const displayed = showItems ? items.slice(0, showItems) : items;
+
   return (
     <>
-      {properties11.slice(0, showItems).map((property, i) => (
-        <div key={i} className="box-house style-list hover-img">
+      {displayed.map((property) => (
+        <div key={property.id} className="box-house style-list hover-img">
           <div className="image-wrap">
             <Link href={`/property-detail-v1/${property.id}`}>
               <Image
                 className="lazyload"
-                alt=""
+                alt={property.title}
                 src={property.imageSrc}
                 width={600}
                 height={401}
@@ -56,7 +59,7 @@ export default function PropertyListItems({ showItems = properties11.length }) {
               </li>
             </ul>
             <div className="bot flex justify-between items-center">
-              <h5 className="price">${property.price.toLocaleString()}</h5>
+              <h5 className="price">&#8377;{property.price}</h5>
               <div className="wrap-btn flex">
                 <Link
                   href={`/property-detail-v1/${property.id}`}

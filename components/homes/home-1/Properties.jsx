@@ -28,7 +28,7 @@ export default function Properties() {
               data-space={15}
             >
               <div className="swiper-wrapper tf-layout-mobile-md md-col-2  lg-col-3 ">
-                {properties.map((property, i) => (
+                {properties.slice(0,4).map((property, i) => (
                   <div key={i} className="swiper-slide">
                     <div className="box-house hover-img ">
                       <div className="image-wrap">
@@ -117,7 +117,7 @@ export default function Properties() {
               }}
               spaceBetween={15}
             >
-              {properties.map((property, i) => (
+              {properties.slice(0,4).map((property, i) => (
                 <SwiperSlide key={i} className="swiper-slide">
                   <div className="box-house hover-img ">
                     <div className="image-wrap">

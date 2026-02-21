@@ -28,7 +28,7 @@ export default function Nav() {
         <a href="#">Listing</a>
         <ul className="submenu">
           <li>
-            <Link href="/#properties">Apartment</Link>
+            <Link href="/property/apartments">Apartment</Link>
           </li>
         </ul>
       </li>

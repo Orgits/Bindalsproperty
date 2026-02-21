@@ -33,7 +33,7 @@ export default function Hero() {
             <div className="content-inner">
               <div className="heading-title">
                 <span className="welcome" style={{ fontSize: "1.5em", color: "white" }}>Welcome to</span>
-                <h1 className="title">Bindals Property Hub</h1>
+                <h1 className="title">Bindals <span style={{ color: "#C5A34F" }}>Property</span> Hub</h1>
                 <p className="h6 fw-4">
                   Bringing you premium properties from trusted vendors and agents in Delhi, Dubai, and beyond, with clarity and confidence at every step
                 </p>
