@@ -1,11 +1,41 @@
-import React from "react";
-import DropdownSelect from "../common/DropdownSelect";
+"use client";
+import React, { useState, useMemo } from "react";
 import PropertyGridItems from "./PropertyGridItems";
 import PropertyListItems from "./PropertyListItems";
 import LayoutHandler from "./LayoutHandler";
 import FilterModal from "./FilterModal";
+import { properties } from "@/data/properties";
+
+const parsePrice = (p) => {
+  const s = String(p).toLowerCase();
+  if (s.includes("cr")) return parseFloat(s) * 10000000;
+  if (s.includes("lac")) return parseFloat(s) * 100000;
+  return parseFloat(s) || 0;
+};
 
 export default function Properties1({ defaultGrid = false }) {
+  const [sortOption, setSortOption] = useState("default");
+  const [filters, setFilters] = useState({ beds: null, baths: null });
+
+  const filteredProperties = useMemo(() => {
+    let result = [...properties];
+
+    if (filters.beds) {
+      result = result.filter((p) => p.beds >= filters.beds);
+    }
+    if (filters.baths) {
+      result = result.filter((p) => p.baths >= filters.baths);
+    }
+
+    if (sortOption === "low") {
+      result.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+    } else if (sortOption === "high") {
+      result.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
+    }
+
+    return result;
+  }, [filters, sortOption]);
+
   return (
     <>
       <section className="section-property-layout">
@@ -30,69 +60,15 @@ export default function Properties1({ defaultGrid = false }) {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M21 4H14"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M10 4H3"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M21 12H12"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M8 12H3"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M21 20H16"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M12 20H3"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M14 2V6"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M8 10V14"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M16 18V22"
-                          stroke="#C5A34F"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
+                        <path d="M21 4H14" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M10 4H3" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M21 12H12" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M8 12H3" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M21 20H16" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M12 20H3" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M14 2V6" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M8 10V14" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M16 18V22" stroke="#C5A34F" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     </div>
                   </div>
@@ -100,10 +76,16 @@ export default function Properties1({ defaultGrid = false }) {
                     <LayoutHandler defaultGrid={defaultGrid} />
                   </ul>
 
-                  <DropdownSelect
-                    addtionalParentClass="select-filter list-sort"
-                    options={["Sort by (Default)", "Newest", "Oldest"]}
-                  />
+                  <select
+                    className="nice-select select-filter list-sort"
+                    value={sortOption}
+                    onChange={(e) => setSortOption(e.target.value)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <option value="default">Sort by (Default)</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                  </select>
                 </div>
               </div>
               <div className="flat-animate-tab">
@@ -114,7 +96,7 @@ export default function Properties1({ defaultGrid = false }) {
                     role="tabpanel"
                   >
                     <div className="tf-grid-layout lg-col-3 md-col-2">
-                      <PropertyGridItems />
+                      <PropertyGridItems properties={filteredProperties} />
                     </div>
                   </div>
                   <div
@@ -123,43 +105,24 @@ export default function Properties1({ defaultGrid = false }) {
                     role="tabpanel"
                   >
                     <div className="tf-grid-layout lg-col-2">
-                      <PropertyListItems />
+                      <PropertyListItems properties={filteredProperties} />
                     </div>
                   </div>
                 </div>
               </div>
+              {filteredProperties.length === 0 && (
+                <p className="text-center text-1" style={{ padding: "40px 0" }}>
+                  No properties match your filters.
+                </p>
+              )}
               <div className="wrap-pagination">
-                <p className="text-1">Showing 1-8 of 42 results.</p>
-                <ul className="wg-pagination">
-                  <li className="arrow">
-                    <a href="#">
-                      <i className="icon-arrow-left" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">1</a>
-                  </li>
-                  <li className="active">
-                    <a href="#">2</a>
-                  </li>
-                  <li>
-                    <a href="#">...</a>
-                  </li>
-                  <li>
-                    <a href="#">20</a>
-                  </li>
-                  <li className="arrow">
-                    <a href="#">
-                      <i className="icon-arrow-right" />
-                    </a>
-                  </li>
-                </ul>
+                <p className="text-1">Showing {filteredProperties.length} of {properties.length} results.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <FilterModal />
+      <FilterModal filters={filters} onApply={setFilters} />
     </>
   );
 }

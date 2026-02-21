@@ -60,9 +60,9 @@ export default function Header1({ parentClass = "header" }) {
                       className="logo_header"
                       alt=""
                       data-light="/images/logo/logo@2x.svg"
-                      data-dark="/images/logo/logo@2x.svg"
+                      data-dark="/images/logo/logo-2@2x.png"
                       src="/images/logo/logo@2x.svg"
-                      style={{scale: '1.3'}}
+                      style={{scale: '1.5', paddingLeft: '12px'}}
                     />
                   </Link>
                 </div>
