@@ -48,7 +48,7 @@ export default function Sidebar() {
             name="message"
             cols={30}
             rows={10}
-            placeholder="How can an agent help"
+            placeholder="How can we help you?"
             id="message1"
             required
             defaultValue={""}
