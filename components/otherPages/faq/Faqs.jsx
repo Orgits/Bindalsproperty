@@ -372,7 +372,7 @@ export default function Faqs() {
                     name="message"
                     cols={30}
                     rows={10}
-                    placeholder="How can an agent help"
+                    placeholder="How can an we help?"
                     id="message"
                     required=""
                     defaultValue={""}
@@ -405,7 +405,7 @@ export default function Faqs() {
                   <div className="content">
                     <h4 className="title">
                       <Link href={`/property-detail-v1`}>
-                        We can help you find a local real estate agent
+                        We can help you find a Trustable local real estate agent
                       </Link>
                     </h4>
                     <div className="text-addres">
@@ -416,7 +416,7 @@ export default function Faqs() {
                     </div>
                   </div>
                   <a href="#" className="tf-btn fw-6 bg-color-primary w-full">
-                    Connect with an agent
+                    Connect Today
                   </a>
                 </div>
               </div>

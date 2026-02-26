@@ -302,7 +302,7 @@ export default function Project1() {
                   <div className="content">
                     <h4 className="title">
                       <a href="#">
-                        We can help you find a local real estate agent
+                        We can help you find a Trustable local real estate agent
                       </a>
                     </h4>
                     <div className="text-addres">
@@ -313,7 +313,7 @@ export default function Project1() {
                     </div>
                   </div>
                   <a href="#" className="tf-btn fw-6 bg-color-primary w-full">
-                    Connect with an agent
+                    Connect Today
                   </a>
                 </div>
               </div>

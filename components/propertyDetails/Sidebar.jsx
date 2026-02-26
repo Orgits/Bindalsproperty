@@ -80,7 +80,7 @@ export default function Sidebar() {
         <div className="box-ads relative z-5">
           <div className="content">
             <h4 className="title">
-              <a href="tel:+919873244244">We can help you find a local real estate agent</a>
+              <a href="tel:+919873244244">We can help you find a Trustable local real estate agent</a>
             </h4>
             <div className="text-addres">
               <p>
@@ -90,7 +90,7 @@ export default function Sidebar() {
             </div>
           </div>
           <a href="tel:+919873244244" className="tf-btn fw-6 bg-color-primary fw-6 w-full">
-            Connect with an agent
+            Connect Today
           </a>
         </div>
       </div>
